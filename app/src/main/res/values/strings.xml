@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChitChat</string>
+    <string name="verify_your_phone_number">Verify your phone number</string>
+    <string name="enter_your_phone_number">Enter phone number</string>
+    <string name="next">Next</string>
+    <string name="logo">TODO</string>
+    <string name="enter_the_otp_code">Enter the OTP</string>
+    <string name="enter_you_name">Enter you name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="sample_name">Sample Name</string>
+    <string name="last_msg">Last Msg</string>
+    <string name="time">Time</string>
+    <string name="tap_to_chat">Tap to chat</string>
+    <string name="_07_00_pm">07:00 PM</string>
+</resources>
