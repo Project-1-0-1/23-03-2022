@@ -1,6 +1,7 @@
 package com.example.chitchat;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +39,15 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
         Glide.with(context).load(user.getProfileImage())
                 .placeholder(R.drawable.user)
                 .into(holder.profile);
-
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                 Intent intent=new Intent(context,ChatAcitivity.class);
+                 intent.putExtra("name",user.getName());
+                intent.putExtra("uid",user.getUid());
+                 context.startActivity(intent);
+            }
+        });
     }
 
     @Override

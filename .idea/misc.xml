@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/drawable/receive_drawable.xml" value="0.1" />
+        <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/drawable/sent_drawable.xml" value="0.1" />
+        <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/activity_chat_acitivity.xml" value="0.2" />
         <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/activity_chat_screen.xml" value="0.264" />
         <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/activity_setupprofile.xml" value="0.264" />
         <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/activity_user_info.xml" value="0.1" />
         <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/activity_verification.xml" value="0.2" />
+        <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/item_receive.xml" value="0.264" />
+        <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/item_sent.xml" value="0.264" />
         <entry key="..\:/20BCE216 PRINCE PATEL/Android Projects/ChitChat-Messaging-App-master/ChitChat-Messaging-App-master/app/src/main/res/layout/row_conversation.xml" value="0.2" />
         <entry key="..\:/Users/HP/ChitChat-master/app/src/main/res/drawable/back.xml" value="0.2265" />
         <entry key="..\:/Users/HP/ChitChat-master/app/src/main/res/drawable/button_back.xml" value="0.2265" />

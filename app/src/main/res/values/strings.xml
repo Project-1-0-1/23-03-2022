@@ -12,4 +12,6 @@
     <string name="time">Time</string>
     <string name="tap_to_chat">Tap to chat</string>
     <string name="_07_00_pm">07:00 PM</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="todo">TODO</string>
 </resources>

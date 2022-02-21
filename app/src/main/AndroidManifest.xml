@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChitChat">
         <activity
+            android:name=".ChatAcitivity"
+            android:exported="false" />
+        <activity
             android:name=".ChatScreen"
             android:exported="true" />
         <activity

@@ -32,18 +32,18 @@ public class splash_screen extends AppCompatActivity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-//                FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
-//                if(mFirebaseUser!=null){
-//
-//                    Intent intent = new Intent(getApplicationContext(), ChatScreen.class);
-//                    startActivity(intent);
-//                    finish();
-//                }
-//                else{
+                FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
+                if(mFirebaseUser!=null){
+
+                    Intent intent = new Intent(getApplicationContext(), ChatScreen.class);
+                    startActivity(intent);
+                    finish();
+                }
+                else{
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
                     finish();
-//                }
+                }
 
             }
         },5000);
