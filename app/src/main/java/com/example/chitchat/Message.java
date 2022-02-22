@@ -8,8 +8,8 @@ public class Message {
 
     }
 
-    public Message(String messageId, String message, String senderId, long timestamp) {
-        this.messageId = messageId;
+    public Message(String message, String senderId, long timestamp) {
+
         this.message = message;
         this.senderId = senderId;
         this.timestamp = timestamp;
@@ -17,7 +17,7 @@ public class Message {
     public String getMessageId(){
         return messageId;
     }
-    public String message(){
+    public String getMessage(){
         return message;
     }
     public String getSenderId(){

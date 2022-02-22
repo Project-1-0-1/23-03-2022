@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
          btn=findViewById(R.id.next_btn);
          phoneno=findViewById(R.id.editTextPhone);
 
-        //String phone="Hello World";
         btn.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {

@@ -7,6 +7,7 @@
     android:background="@color/black"
     tools:context=".ChatAcitivity">
 
+
     <ImageView
         android:id="@+id/sendBtn"
         android:layout_width="0dp"
@@ -25,14 +26,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_menu_send" />
 
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_weight="1"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/msgarea"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/msgarea"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/msgarea"
@@ -68,7 +72,9 @@
                 android:paddingStart="8dp"
                 android:paddingTop="1dp"
                 android:paddingEnd="0dp"
-                android:textColorHint="#757575" />
+                android:textColor="#050505"
+                android:textColorHint="#121111"
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
