@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -66,14 +67,14 @@ public class MessagesAdapter extends RecyclerView.Adapter {
     }
 
     public class SentViewHolder extends RecyclerView.ViewHolder{
-         public EditText message_sent;
+         public TextView message_sent;
         public SentViewHolder(@NonNull View itemView) {
             super(itemView);
             message_sent=itemView.findViewById(R.id.message);
         }
     }
     public class ReceiverViewHolder extends RecyclerView.ViewHolder{
-        public EditText message_rec;
+        public TextView message_rec;
         public ReceiverViewHolder(@NonNull View itemView) {
             super(itemView);
             message_rec=itemView.findViewById(R.id.message);
